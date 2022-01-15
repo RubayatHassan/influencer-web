@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital@1&display=swap');
+
+/* Utility */
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.first-part{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.helf-width{
+    width: 50%;
+}
+.cm-photo{
+    margin-left: 200px;
+}
+button{
+    color: white;
+    background-color: black;
+    height: 40px;
+    width: 150px;
+    border-radius: 50px;
+}
+ /* product style */
+.product{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+}
+
+ /* star */
+.rating{
+    display:flex;
+    align-items: center;
+}
+/* star logo */
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #f1dca0de;
+}
+
+/* footer */
+footer{
+    width: 100%;
+    background-color: blanchedalmond;
+    align-items:;
+}
+footer div{
+    text-align: center;
+}
