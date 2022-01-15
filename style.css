@@ -5,6 +5,11 @@ body{
     font-family: 'Be Vietnam Pro', sans-serif;
 }
 
+/* main */
+main{
+    margin: 50px 150px;
+}
+
 .first-part{
     display: flex;
     width: 100%;
@@ -28,6 +33,10 @@ button{
 .product{
     display: grid;
     grid-template-columns: repeat(3, 1fr) ;
+}
+.see-more{
+        text-align: right;
+     } 
 }
 
  /* star */
